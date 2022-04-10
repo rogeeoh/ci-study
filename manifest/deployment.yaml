@@ -18,7 +18,7 @@ spec:
         app: ci-study
     spec:
       containers:
-        - image: rogeeoh/ci-study:18
+        - image: rogeeoh/ci-study:19
           name: ci-study
           ports:
             - containerPort: 5000
