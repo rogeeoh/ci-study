@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: rollouts-demo
-          image: rogeeoh/ci-study:21
+          image: rogeeoh/ci-study:20
           #image: argoproj/rollouts-demo:green
           imagePullPolicy: Always
           ports:
