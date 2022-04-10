@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: rollouts-demo
-          image: rogeeoh/ci-study:22
+          image: rogeeoh/ci-study:23
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
