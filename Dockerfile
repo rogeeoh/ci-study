@@ -1,6 +1,9 @@
 FROM node:14
 
 WORKDIR /app
+
+# set arg and pass it to env set dynamic env
+ARG BUILD_NUMBER
 ENV BUILD_NUMBER=${BUILD_NUMBER}
 
 #npm install 을 위해, package.json과 package-lock.json을 먼저 copy해둠
